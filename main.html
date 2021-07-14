@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/responsive.css">
+<!-- slick.css -->
+<link rel="stylesheet" href="./css/slick.css">
+<!-- icons : favicon, xeicon, unicons -->
+<link rel="icon" type="image/png" sizes="32x32" href="./image/logo/favicon-32x32.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<!-- js -->
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- scroll magic-->
+<script src="./js/plugin/ScrollMagic.min.js"></script>
+<script src="./js/plugin/debug.addIndicators.min.js"></script>
+<!-- gsap.js -->
+<script src="./js/plugin/gsap.min.js"></script>
+<!-- gsap, scroll magic 연동-->
+<script src="./js/plugin/animation.gsap.min.js"></script>
+<!-- slick.js -->
+<script src="./js/slick.js"></script>
+<script src="./js/script.js"></script>
+<title>메인 - 정다겸 포트폴리오</title>
+</head>
+<body ontouchstart="">
+    <!-- ========================= header ========================= -->
+    <header class="header" id="header">
+        <div class="header-inner flex">
+            <a href="./index.html" id="logo">
+                <img class="logo__img" src="./image/logo/logo.png" alt="상단 로고 이미지">
+            </a>
+            <div class="nav__container">
+                <ul class="nav__menu flex">
+                    <li class="nav__item">
+                        <a href="#" data-link="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> HOME
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" data-link="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>ABOUT ME
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" data-link="#skills" class="nav__link">
+                            <i class="uil uil-file nav__icon"></i>
+                            SKILL
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" data-link="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>
+                            POLTFOLIO
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" data-link="#gallery" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>
+                            GALLERY
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" data-link="#contact" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i>
+                            CONTACT
+                        </a>
+                    </li>
+                    <i class="uil uil-times nav__close" id="navClose"></i>
+                </ul>
+            </div>
+            <div class="nav__btns flex">
+                <i class="uil uil-sun change-theme" id="buttonLight"></i>
+                <i class="uil uil-moon change-theme" id="buttonDark"></i>
+                <i class="uil uil-ellipsis-h" id="navToggle"></i>
+            </div>
+        </div>
+    </header>
+    <!-- ========================= Home ========================= -->
+    <section class="home inner flex" id="home">
+        <div class="home__intro">
+            <div class="home__desc">
+                <h1 class="home__title">PORTFOLIO</h1>
+                <h2 class="home__subtitle">my special work</h2>   
+            </div>
+            <div class="animation__line left"></div>
+            <div class="animation__line right"></div>
+            <div class="animation__line top"></div>
+            <div class="animation__line bottom"></div>
+        </div>
+    </section>
+    <!-- ========================= about ========================= -->
+    <section class="about inner" id="about">
+            <div class="about__frame">
+                <div class="section__title--wrap">
+                    <h1 class="section__title">About Me</h1>
+                    <h2 class="section__subtitle">My introduction</h2>
+                </div>
+                <div class="about__info--wrap">
+                    <div class="about__info--item">
+                        <img class="profile__img" src="./image/profile/profile-img-1.jpg" alt="프로필 이미지">
+                    </div>
+                    <div class="about__info--item">
+                        <h3 class="info__title">Profile</h3>
+                        <ul>
+                            <li>Name: 정다겸/Jung dagyeom </li><br>
+                            <li>Date of birth: 1994. 07. 26</li>
+                        </ul>
+                    </div>
+                    <div class="about__info--item">
+                        <h3 class="info__title">Education</h3>
+                        <ul>
+                            <li>
+                                <span>2021. 02. 09 ~ 2021. 07. 01</span>
+                            </li>
+                            <li>
+                                그린컴퓨터아트학원 디지털디자인(웹디자인)과정 수료
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>2013. 03 ~ 2018. 07</span>
+                            </li>
+                            <li>
+                                대구한의대학교 의료경영학과 졸업 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about__info--item">
+                        <h3 class="info__title">License</h3>
+                        <ul>
+                            <li>
+                                <span>2021. 05. 14 </span>
+                                GTQ 그래픽기술자격 일러스트 1급
+                            </li>
+                            <li>
+                                <span>2021. 04. 16</span>
+                                GTQ 그래픽기술자격 포토샵 1급
+                            </li>
+                            <li>
+                                <span>2016. 06. 07</span>
+                                ACA Photoshop CS6
+                            </li>
+                            <li>
+                                <span>2014. 09. 12</span>
+                                MOS Office Access® 2007
+                            </li>
+                            <li>
+                                <span>2013. 06. 22</span>
+                                MOS Office PowerPoint® 2007
+                            </li>
+                            <li>
+                                <span>2013. 05. 25</span>
+                                MOS Office Excel® 2007 Expert
+                            </li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ========================= skills ========================= -->
+    <section class="skills inner" id="skills">
+        <div class="section__title--wrap">
+            <h1 class="section__title">Skills</h1>
+            <h2 class="section__subtitle">My technical level</h2>
+        </div>
+        <div class="skills__container flex">
+            <div class="skills__item">
+                <div class="skills__item--inner">
+                    <div class="content first">
+                        <h1 class="skills__stack">HTML5</h1>
+                        <h1 class="skills__percentage">97%</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item--inner">
+                    <div class="content second">
+                        <h1 class="skills__stack">CSS3</h1>
+                        <h1 class="skills__percentage">85%</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item--inner">
+                    <div class="content third">
+                        <h1 class="skills__stack">javascript</h1>
+                        <h1 class="skills__percentage">30%</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item--inner">
+                    <div class="content fourth">
+                        <h1 class="skills__stack">jQuery</h1>
+                        <h1 class="skills__percentage">50%</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item--inner">
+                    <div class="content fifth">
+                        <h1 class="skills__stack">Photoshop</h1>
+                        <h1 class="skills__percentage">90%</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item--inner">
+                    <div class="content sixth">
+                        <h1 class="skills__stack">Illustrator</h1>
+                        <h1 class="skills__percentage">90%</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__item--inner">
+                    <div class="content seventh">
+                        <h1 class="skills__stack">PowerPoint <br>&<br>Exel </h1>
+                        <h1 class="skills__percentage">97%</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= portfolio ========================= -->
+    <section class="portfolio inner" id="portfolio">
+        <div class="section__title--wrap">
+            <h1 class="section__title">Portfolio</h1>
+            <h2 class="section__subtitle">Graphic Design & Web Publising</h2>
+        </div>
+        <div class="portfolio__container">
+            <ul class="works__content flex">
+                <li class="works__item">
+                    <img src="./image/graphic-design/web-img.jpg" alt="웹페이지 오늘의집 이미지">
+                    <h1>Web<br>Design </h1>
+                    <h2>오늘의 집</h2>
+                    <a href="#" class="works__item-button" data-src="./image/graphic-design/web-design_detail.jpg">
+                        More
+                    </a>
+                </li>
+                <li class="works__item">
+                    <img src="./image/graphic-design/branding-img.jpg" alt="대교농산 로고디자인 이미지">
+                    <h1>BRANDING</h1>
+                    <h2>대교농산</h2>
+                    <a href="#" class="works__item-button" data-src="./image/graphic-design/brending-design_detail.jpg">
+                        More
+                    </a>
+                </li>
+                <li class="works__item">
+                    <img src="./image/graphic-design/app-img.jpg" alt="앱디자인 캐시워크 이미지">
+                    <h1>App<br>Design </h1>
+                    <h2>캐시워크</h2>
+                    <a href="#" class="works__item-button" data-src="./image/graphic-design/app-design_detail.png">
+                        More
+                    </a>
+                </li>
+                <li class="works__item">
+                    <img src="./image/graphic-design/poster-img.jpg" alt="축제포스터 디자인 이미지">
+                    <h1>POSTER</h1>
+                    <h2>축제 포스터</h2>
+                    <a href="#" class="works__item-button" data-src="./image/graphic-design/poster-design_detail.jpg">
+                        More
+                    </a>
+                </li>
+                <li class="works__item">
+                    <img src="./image/graphic-design/mobile-img.jpg" alt="모바일 스타일윅스 디자인 이미지">
+                    <h1>Mobile<br>Design </h1>
+                    <h2>스타일 윅스</h2>
+                    <a href="#" class="works__item-button" data-src="./image/graphic-design/mobile-design_detail.jpg">
+                        More
+                    </a>
+                </li>
+                 <div class="works__modal">
+                    <div class="works__modal-content">
+                        <img src="" alt="" class="modal__detail">
+                    </div>
+                </div>
+            </ul>
+            <div class="custom__slider">
+                <div>
+                    <div class="slider__content">
+                        <div class="slider__desc">
+                            <h1>GODIVA - </h1>
+                            <div class="slider__buttons">
+                                <a href="https://github.com/Jung-dagyeom/godiva-project" class="button slick__button" target="_blank">
+                                    View Code
+                                    <i class="uil uil-arrow-right"></i>
+                                </a>
+                                <a href="https://jung-dagyeom.github.io/godiva-project/" class="button slick__button" target="_blank">
+                                    View Site
+                                    <i class="uil uil-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider__img">
+                            <img src="./image/slider/web_page-1.png" alt="고디바 홈페이지 이미지">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider__content">
+                        <div class="slider__desc">
+                            <h1>macaron M -</h1>
+                            <div class="slider__buttons">
+                                <a href="https://github.com/Jung-dagyeom/clone-project" class="button slick__button" target="_blank">
+                                    View Code
+                                    <i class="uil uil-arrow-right"></i>
+                                </a>
+                                <a href="https://jung-dagyeom.github.io/clone-project/" class="button slick__button" target="_blank">
+                                    View Site
+                                    <i class="uil uil-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider__img">
+                            <img src="./image/slider/web_page-2.png" alt="마카롱택시 홈페이지 이미지">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="slider__content">
+                        <div class="slider__desc">
+                            <h1>web page -</h1>
+                            <div class="slider__buttons">
+                                <a href="#" class="button slick__button" target="_blank">
+                                    View Code
+                                    <i class="uil uil-arrow-right"></i>
+                                </a>
+                                <a href="#" class="button slick__button" target="_blank">
+                                    View Site
+                                    <i class="uil uil-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider__img">
+                            <img src="./image/slider/comming_soon-img.jpg" alt="홈페이지 준비중 이미지">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery inner" id="gallery">
+        <div class="section__title--wrap">
+            <h1 class="section__title">Design works gallery</h1>
+        </div>
+        <img class="gallery-light--img" src="./image/gallery/light-img.png" alt="조명 이미지">
+        <div class="gallery__container">
+            <ul class="l_row">
+                <li class="l_col l_col_12_12 l_col_tablet_12_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/poster-design_1.jpg" alt="축제포스터 목업 이미지">
+                    </div>
+                </li>
+                <li class="l_col l_col_12_12 l_col_tablet_12_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/poster-design_2.jpg" alt="축제포스터 목업 이미지">
+                    </div>
+                </li>
+                <li class="l_col l_col_7_12 l_col_tablet_6_12 l_col_mobile_6_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/poster-design_3.jpg" alt="썸머포스터 목업 이미지">
+                    </div>
+                </li>
+                <li class="l_col l_col_5_12 l_col_tablet_6_12 l_col_mobile_6_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/poster-design_4.jpg" alt="썸머포스터 세로 배너이미지">
+                    </div>
+                </li>
+                <li class="l_col l_col_6_12 l_col_tablet_6_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/poster-design_5.jpg" alt="화장품 가로배너 이미지">
+                    </div>
+                </li>
+                <li class="l_col l_col_6_12 l_col_tablet_6_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/poster-design_6.jpg" alt="라코스테 가로배너 이미지">
+                    </div>
+                </li>
+                <li class="l_col l_col_12_12 l_col_tablet_12_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/magazine-design.jpg" alt="커피 가로배너 이미지">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="gallery__item--more" id="moreItem">
+            <ul class="l_row">
+                <li class="l_col l_col_6_12 l_col_tablet_12_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/banner-design_1.jpg" alt="화장품 가로배너 이미지">
+                    </div>
+                </li>
+                <li class="l_col l_col_6_12 l_col_tablet_12_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/banner-design_2.jpg" alt="라코스테 가로배너 이미지">
+                    </div>
+                </li>
+                
+                <li class="l_col l_col_6_12 l_col_tablet_6_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/banner-design_3.jpg" alt="커피 가로배너 이미지">
+                    </div>
+                </li>
+                <li class="l_col l_col_6_12 l_col_tablet_6_12 l_col_mobile_12_12">
+                    <div class="img__wrap">
+                        <img src="./image/gallery/banner-design_4.jpg" alt="제이에스티나 가로배너 이미지">
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <a href="#" class="gallery__item-button" id="moreButton">more +</a>
+
+    </section>
+    <!-- ========================= contact ========================= -->
+    <section class="contact inner" id="contact">
+        <div class="section__title--wrap">
+            <h1 class="section__title">Contact Me</h1>
+            <h2 class="section__subtitle">
+                제가 가진 색을 
+                <span style="color: #f8aca1;">다</span> 
+                <span style="color: #f8e273;">채</span> 
+                <span style="color: #98bde2;">롭</span> 
+                <span style="color: #a1e4d1;">게</span> 
+                채울 수 있는 디자이너가 되겠습니다.
+            </h2>
+        </div>
+        <div class="contact__container">
+            <div class="contact__desc--wrap">
+                <div class="contact__img">
+                    <img src="./image/contact/contact-img.png" alt="전화기 이미지">
+                </div>
+                <div class="contact__desc">
+                    <p class="contact__info--para">dagyeoms1004@gmail.com</p>
+                </div>
+                <div class="content__item">
+                    <a href="https://github.com/Jung-dagyeom" title="github 사이트 이동">
+                        <i class="uil uil-github"></i><br>Github
+                    </a>
+                    <a href="mailto:dagyeoms1004@gmail.com" target="_top">
+                        <i class="uil uil-envelope"></i><br>메일보내기
+                    </a>
+                    <a download="웹디자이너_이력서_정다겸.pdf" href="pdf/웹디자이너_이력서_정다겸.pdf" class="about__download">
+                        <i class="uil uil-file-download-alt"></i><br> 이력서
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================== Scroll top ====================================== -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!-- ====================================== Footer ====================================== -->
+    <footer class="footer inner" id="footer">
+        <div class="footer__logo">
+            <img class="footer__logo--img" src="./image/logo/logo.png" alt="로고 이미지">
+        </div>
+        <p class="footer__copy">&copy; 2021. JUNGDAGYEOM All right reserved.</p>
+    </footer>
+</body>
+</html>
