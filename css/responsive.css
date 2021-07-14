@@ -14,28 +14,7 @@
     .inner {
         padding: 2rem 1rem;
     }
-/* ---------- intro ---------- */
-    .intro__ment--box {
-        top: 25%;
-    }
-    .intro__bg {
-        display: none;
-    }
-    .intro__contents {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100vw;
-        text-align: center;
-        transform: translate(-50%, -50%);
-    }
-    .copyright {
-        display: inline-block;
-        font-size: var(--small-font-size);
-        width: 300px;
-        text-align: center;
-    }
-    /* ---------- header ---------- */
+/* ---------- header ---------- */
     .header {
         position: fixed;
         bottom: 0;
@@ -114,33 +93,6 @@
     .home__subtitle {
         font-size: 1rem;
     }
-    .home__intro {
-        width: 90%;
-    }
-    .animation__line.left,
-    .animation__line.right {
-        width: 100%;
-    }
-    .animation__line.top,
-    .animation__line.bottom {
-        height: 100%;
-    }
-    .left {
-        top: 0;
-        right: 0;
-    }
-    .right {
-        left: 0;
-        bottom: 0;
-    }
-    .top {
-        left: 0;
-        bottom: 0;
-    }
-    .bottom {
-        top: 0;
-        right: 0;
-    }
 /* ---------- About ---------- */
     .about__frame {
         width: 90%;
@@ -169,10 +121,6 @@
     .content h1 {
         font-size: var(--small-font-size);
     }
-    .skills .section__title:before {
-        width: 320px;
-        height: 15px;
-    }
 /* ---------- footer ---------- */
     .footer__logo {
         display: none;
@@ -186,20 +134,12 @@
 }
 /* >>>>>>>>>>>>>>> Mobile >>>>>>>>>>>>>>> */
 @media (max-width: 480px){
-/* ---------- intro ---------- */
-    .intro__ment--box {
-        top: 25%;
-        left: 50%;
-    }
 /* ---------- home  ---------- */
     .home__title {
         font-size: 1rem;
     }
     .home__subtitle {
         font-size: .6rem;
-    }
-    .home__intro {
-        width: 95%;
     }
 /* ---------- about  ---------- */
     .about__frame {
