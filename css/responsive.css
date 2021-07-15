@@ -105,14 +105,11 @@
         font-size: var(--normal-font-size);
     }
     .about__info--wrap {
-        padding: .5rem;
+        padding: 1.5rem;
     }
     .about__info--item .profile__img {
         width: 180px;
         height: 200px;
-    }
-    .about__info--item {
-        margin-bottom: 1rem;
     }
     .info__title {
         margin-bottom: .3rem;
@@ -149,7 +146,7 @@
     .about__frame {
         width: 90%;
     }
-    .about__info--item ul {
+    .about__info--item ul li {
         font-size: .6rem;
     }
     .about__info--item .profile__img {
