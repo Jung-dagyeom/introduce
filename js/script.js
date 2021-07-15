@@ -10,7 +10,7 @@ $(function(){
     $('#buttonLight').click(function(){
         $('body').removeClass('dark-mode');
         $('#buttonDark').show();
-
+        $(this).hide();
     })
     /* ================= navbar ===================== */
     var $navItem = $('.nav__item');
