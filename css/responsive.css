@@ -122,6 +122,10 @@
         bottom: 20%;
         right: 15px;
     }
+/* ---------- reason  ---------- */ 
+    .reason__contants li:nth-child(5) {
+        font-size: var(--normal-font-size);
+    }   
 /* ---------- footer ---------- */
     .footer__logo {
         display: none;
@@ -163,7 +167,7 @@
         bottom: 0;
         right: 15px;
     }
-/* ---------- reason  ---------- */    
+/* ---------- reason  ---------- */   
     .reason__contants li {
         font-size: .85rem;
     }

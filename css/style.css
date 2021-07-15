@@ -442,6 +442,12 @@
         font-weight: bold;
         border-bottom: 5px double #0166b4;
     }
+    .reason__contants li:nth-child(5) {
+        padding-top: 2rem;
+        border-bottom: 20px double var(--yellow-color);
+        font-size: vaR(--mediem-font-size);
+        text-align: center;
+    }
     .reason__contants li span {
         color: #0166b4;
         font-size: var(--mediem-font-size);
