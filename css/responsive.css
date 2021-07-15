@@ -122,9 +122,6 @@
         bottom: 20%;
         right: 15px;
     }
-    .content h1 {
-        font-size: var(--small-font-size);
-    }
 /* ---------- footer ---------- */
     .footer__logo {
         display: none;
@@ -155,6 +152,9 @@
         width: 135px;
         height: 150px;
     }
+    .content h1 {
+        font-size: var(--small-font-size);
+    }
 /* ---------- skills  ---------- */
     .skills .section__subtitle {
         font-size: var(--small-font-size);
@@ -165,11 +165,15 @@
     }
 /* ---------- reason  ---------- */    
     .reason__contants li {
-        font-size: var(--small-font-size);
+        font-size: .85rem;
     }
     .contact .section__subtitle {
         font-size: .75rem;
     }
+/* ---------- contact  ---------- */
+.contact__info--para {
+    font-size: var(--small-font-size);
+}    
 /* ---------- Footer ---------- */
     .footer__copy {
         padding-bottom: 3rem;

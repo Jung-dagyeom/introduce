@@ -327,10 +327,10 @@
         left: 0;
         width: 100%;
         height: 25px;
-        background: var(--point-color);
+        background: var(--yellow-color);
         border-radius: 30px;
         z-index: -1;
-        opacity: .8;
+        opacity: .6;
     }
     .skills .section__subtitle {
         font-size: var(--mediem-font-size);
@@ -385,9 +385,7 @@
     .first,
     .second,
     .third,
-    .fourth {
-        background: var(--yellow-color);
-    }
+    .fourth,
     .fifth,
     .sixth,
     .seventh {
