@@ -299,7 +299,6 @@
     }
     .about__info--item ul li{
         display: inline-block;
-        font-size: .5rem;
         margin-right: .5rem;
         color: var(--gray-color);
     }
